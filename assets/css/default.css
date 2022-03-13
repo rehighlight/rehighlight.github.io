@@ -56,11 +56,35 @@ h6 {
 .center {
   text-align: center;
 }
+.right {
+  text-align: right;
+}
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
 
 .container {
   max-width: 900px;
   padding: 2%;
   margin: 0 auto;
+}
+
+footer {
+  background-color: #313537;
+  height: 180px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #EFEFEF;
+}
+.small-logo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
 }
 
 .landing {
@@ -77,6 +101,11 @@ h6 {
   padding: 0 2rem;
   max-width: 500px;
   margin: 0 auto;
+}
+.copyright {
+  letter-spacing: 1px;
+  font-size: .75rem;
+  color: #F8DC5B;
 }
 
 /* Media Queries for Responsive Design */
