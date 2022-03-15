@@ -16,7 +16,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;  
   border: 0;  
   font-size: 100%;  
-  font: inherit;  
+  font: inherit;
   vertical-align: baseline; 
 }
 
@@ -73,6 +73,28 @@ h6 {
 .grid {
   display: grid;
 }
+button, .btn {
+  background-color: #313537;
+  border: none;
+  color: #EFEFEF;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 1rem;
+}
+button:hover, .btn:hover {
+  color: #F8DC5B;
+}
+button:active, .btn:active {
+  transform: translateY(2px);
+}
 
 .container {
   max-width: 900px;
@@ -118,6 +140,14 @@ footer {
   padding: 0 2rem;
   max-width: 500px;
   margin: 0 auto;
+}
+.landing .description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.landing .status {
+  margin-top: 2rem;
+  font-size: 1rem;
 }
 .copyright {
   letter-spacing: 1px;
